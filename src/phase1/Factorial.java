@@ -2,13 +2,17 @@ package phase1;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class Factorial {
 	
 	//Find Factorial of number
 	
 	public static int getFactorial(int num) {
 		int f = 1;
 		
+		if (num < 0 ) {
+			System.out.println("Factorial of negative numbers are not defined");
+			return 0;
+		}
 		for(int i = 1; i <= num; ++i) {
 			f *= i;
 		}
@@ -21,7 +25,7 @@ public class Task2 {
 		System.out.println("Enter a num :");
 		int a = sc.nextInt();
 		System.out.println("The Factorial of " +a + " is "+ getFactorial(a));
-		
+		sc.close();
 		
 	}
 

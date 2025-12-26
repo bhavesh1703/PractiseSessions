@@ -1,6 +1,6 @@
 package phase1;
 
-public class Task3 {
+public class MinMax {
 	
 	public static void main(String[] args) {
 		

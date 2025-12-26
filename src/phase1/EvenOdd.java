@@ -2,7 +2,7 @@ package phase1;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class EvenOdd {
 	
 	// Check number is even or not
 	public static void isEven(int num) {
@@ -19,5 +19,6 @@ public class Task1 {
 		System.out.println("Enter a number : ");
 		int i = sc.nextInt();
 		isEven(i);
+		sc.close();
 	}
 }
