@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Factorial {
 	
-	//Find Factorial of number
+	//25-12-25 : Day 1 - Find Factorial of number
 	
 	public static int getFactorial(int num) {
 		int f = 1;

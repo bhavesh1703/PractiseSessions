@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EvenOdd {
 	
-	// Check number is even or not
+	//25-12-25 : Day 1 - Check number is even or not
 	public static void isEven(int num) {
 		if(num % 2 == 0) {
 			System.out.println("Number " + num + " is even.");
