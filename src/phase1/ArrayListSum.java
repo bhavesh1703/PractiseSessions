@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArrayListSum {
 	
-	//26-12-25: Day 3- Find the sum of numbers using ArrayList
+	//27-12-25: Day 3- Find the sum of numbers using ArrayList
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

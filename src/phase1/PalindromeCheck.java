@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PalindromeCheck {
 	
-	//26-12-25: Day 3- Check that String is Palindrome or not
+	//27-12-25: Day 3- Check that String is Palindrome or not
 	
 	public static void main(String[] args) {
 		
