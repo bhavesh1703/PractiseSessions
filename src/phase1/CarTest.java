@@ -6,6 +6,8 @@ public class CarTest {
 	private String model;
 	private double price;
 	
+	//27-12-25: Day 3: Build a small Car info system, Apply Discount. 
+	
 	public CarTest(String brand, String model, double price) {
 		this.brand = brand;
 		this.model = model;
